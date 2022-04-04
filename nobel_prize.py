@@ -14,7 +14,7 @@ def main(year, category):
     for prize in prizes:
         if 'laureates' not in prize:
             continue
-        if category and prize['category'].lower() != category.lower():
+        if category and prize['catego   ry'].lower() != category.lower():
             continue
         if year and prize['year'] != year:
             continue
